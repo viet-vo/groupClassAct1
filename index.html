@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <title>Group Activity!</title>
+</head>
+
+
+<body>
+    <div class="container">
+
+        <div class="jumbotron">
+            <h1 class="display-4 text-center">Employee Data Management</h1>
+            <p class="text-center">*description of database</p>
+        </div>
+
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-secondary text-center">
+                <u>Input Data</u>
+            </li>
+            <li class="list-group-item">
+                <form>
+                    <div class="form-group">
+                        <label for="Name">Name:</label>
+                        <input class="form-control" id="userInput1" placeholder='ex. "Mark Zuckerberg"'>
+                    </div>
+                    <div class="form-group">
+                        <label for="Email">Email:</label>
+                        <input class="form-control" id="userInput2" placeholder='ex. "example@gmail.com"'>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Start Date (MM/DD/YYYY):</label>
+                        <input class="form-control" id="userInput3" placeholder='ex. March 23rd, 2007: (03/23/2007'>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Monthly Rate:</label>
+                        <input class="form-control" id="userInput4" placeholder='ex. $3500'>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn float-right">Submit</button>
+                </form>
+            </li>
+        </ul>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-secondary">Data</li>
+            <li class="list-group-item" id="addInfo"></li>
+        </ul>
+    </div>
+
+    <!-- =========================================================================================================================================================================== -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!-- =========================================================================================================================================================================== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
+    <script src="assets/javascript/main.js"></script>
+
+</body>
+
+</html>
